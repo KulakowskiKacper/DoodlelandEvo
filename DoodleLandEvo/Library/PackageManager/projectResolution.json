@@ -39,12 +39,12 @@
       "version": "2.0.22",
       "source": "registry"
     },
-    "com.unity.inputsystem@1.11.1": {
+    "com.unity.inputsystem@1.11.2": {
       "name": "com.unity.inputsystem",
       "resolvedPath": "C:\\Users\\kaq12\\Desktop\\DoodlelandEvo\\DoodleLandEvo\\Library\\PackageCache\\com.unity.inputsystem",
-      "fingerprint": "f32e50d372b38a6a40f5382ad8ab0d11ac27b67d",
+      "fingerprint": "3c4a97c3950fef77960981e0fe90613de6e512ee",
       "editorCompatibility": "2019.4.0a1",
-      "version": "1.11.1",
+      "version": "1.11.2",
       "source": "registry"
     },
     "com.unity.multiplayer.center@1.0.0": {
