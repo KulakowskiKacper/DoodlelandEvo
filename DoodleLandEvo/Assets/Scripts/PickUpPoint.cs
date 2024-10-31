@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class PickUpPoint : MonoBehaviour
 {
-    private int score;
+    public PlayerManagment player;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        score = GetComponent<PlayerManagment>().Score;
     }
 
     // Update is called once per frame
@@ -20,7 +20,7 @@ public class PickUpPoint : MonoBehaviour
         if (other.gameObject.CompareTag("Point"))
         {
             Destroy(other.gameObject);
-            score++;
+            player.Score++;
         }
     }
 }

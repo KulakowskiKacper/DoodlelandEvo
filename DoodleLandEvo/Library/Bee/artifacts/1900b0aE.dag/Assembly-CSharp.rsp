@@ -444,6 +444,7 @@
 "Assets/Scripts/PickUpPoint.cs"
 "Assets/Scripts/PlayerManagment.cs"
 "Assets/Scripts/PlayerMovement.cs"
+"Assets/Scripts/Score.cs"
 -langversion:9.0
 /deterministic
 /optimize+
