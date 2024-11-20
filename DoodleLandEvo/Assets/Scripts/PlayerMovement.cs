@@ -2,12 +2,12 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private float speed;
+    public PlayerManagment playerManagment;
+    [SerializeField] public float speed = 1;
     [SerializeField] private float jumpHeight;
     private bool inAir = false;
 
     private Rigidbody2D rb;
-
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -20,15 +20,16 @@ public class PlayerMovement : MonoBehaviour
             Jump();
         }
 
+
     }
 
     private void FixedUpdate()
     {
-        if (Input.GetKey(KeyCode.D) && inAir)
+        if (Input.GetKey(KeyCode.D) && (inAir || playerManagment.hasLegs))
         {
             MoveRight();
         }
-        if (Input.GetKey(KeyCode.A) && inAir)
+        if (Input.GetKey(KeyCode.A) && (inAir || playerManagment.hasLegs))
         {
             MoveLeft();
         }
@@ -57,5 +58,6 @@ public class PlayerMovement : MonoBehaviour
     {
         rb.AddForce(new Vector2(0, jumpHeight), ForceMode2D.Impulse);
     }
+
 
 }
