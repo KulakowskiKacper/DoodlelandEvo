@@ -1,25 +1,25 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/kaq12/Desktop/DoodlelandEvo/DoodleLandEvo/Packages/manifest.json
+    m_FilePath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638695282444574836
+      ticks: 638695282460000000
     m_Hash: 337515505
   m_LockFileStatus:
-    m_FilePath: C:/Users/kaq12/Desktop/DoodlelandEvo/DoodleLandEvo/Packages/packages-lock.json
+    m_FilePath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638695282444613901
+      ticks: 638695282460000000
     m_Hash: 2346288917
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/kaq12/Desktop/DoodlelandEvo/DoodleLandEvo/Packages
+m_ProjectPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Packages
 m_EditorVersion: 6000.0.24f1 (11fa355cd605)
 m_ResolvedPackages:
 - packageId: com.unity.cinemachine@3.1.2
@@ -27,7 +27,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.1.2
   source: 1
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.cinemachine
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.cinemachine
   assetPath: Packages/com.unity.cinemachine
   name: com.unity.cinemachine
   displayName: Cinemachine
@@ -147,16 +147,16 @@ m_ResolvedPackages:
   resolvedDependencies:
   - name: com.unity.splines
     version: 2.6.1
+  - name: com.unity.settings-manager
+    version: 2.0.1
+  - name: com.unity.mathematics
+    version: 1.3.2
   - name: com.unity.ugui
     version: 2.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.mathematics
-    version: 1.3.2
-  - name: com.unity.settings-manager
-    version: 2.0.1
   keywords:
   - camera
   - follow
@@ -240,7 +240,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.5.2
   source: 1
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.collab-proxy
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.collab-proxy
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -256,85 +256,9 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 1.2.3-preview
-    - 1.2.4-preview
-    - 1.2.6
-    - 1.2.7
-    - 1.2.9
-    - 1.2.11
-    - 1.2.15
-    - 1.2.16
-    - 1.2.17-preview.3
-    - 1.3.2
-    - 1.3.3
-    - 1.3.4
-    - 1.3.5
-    - 1.3.6
-    - 1.3.7
-    - 1.3.8
-    - 1.3.9
-    - 1.4.9
-    - 1.5.7
-    - 1.6.0
-    - 1.7.1
-    - 1.8.0
-    - 1.9.0
-    - 1.10.2
-    - 1.11.2
-    - 1.12.5
-    - 1.13.5
-    - 1.14.1
-    - 1.14.4
-    - 1.14.7
-    - 1.14.9
-    - 1.14.12
-    - 1.14.13
-    - 1.14.15
-    - 1.14.16
-    - 1.14.17
-    - 1.14.18
-    - 1.15.1
-    - 1.15.4
-    - 1.15.7
-    - 1.15.9
-    - 1.15.12
-    - 1.15.13
-    - 1.15.15
-    - 1.15.16
-    - 1.15.17
-    - 1.15.18
-    - 1.17.0
-    - 1.17.1
-    - 1.17.2
-    - 1.17.6
-    - 1.17.7
-    - 2.0.0-preview.6
-    - 2.0.0-preview.8
-    - 2.0.0-preview.15
-    - 2.0.0-preview.17
-    - 2.0.0-preview.20
-    - 2.0.0-preview.21
-    - 2.0.0-preview.22
-    - 2.0.0
-    - 2.0.1
-    - 2.0.3
-    - 2.0.4
-    - 2.0.5
-    - 2.0.7
-    - 2.1.0-preview.3
-    - 2.1.0-preview.5
-    - 2.1.0-preview.6
-    - 2.1.0
-    - 2.2.0
-    - 2.3.1
-    - 2.4.3
-    - 2.4.4
-    - 2.5.1
     - 2.5.2
-    - 2.6.0
     compatible:
     - 2.5.2
-    - 2.6.0
     recommended: 2.5.2
     deprecated: []
   dependencies: []
@@ -364,9 +288,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638630364536670000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.5/manual/index.html
   hasRepository: 1
   repository:
@@ -399,7 +323,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.1
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.feature.2d
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.feature.2d
   assetPath: Packages/com.unity.feature.2d
   name: com.unity.feature.2d
   displayName: 2D
@@ -444,32 +368,32 @@ m_ResolvedPackages:
     version: 10.1.3
   - name: com.unity.2d.common
     version: 9.0.6
-  - name: com.unity.burst
-    version: 1.8.18
-  - name: com.unity.mathematics
-    version: 1.3.2
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
   - name: com.unity.2d.sprite
     version: 1.0.0
-  - name: com.unity.modules.animation
-    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.3.2
   - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
   - name: com.unity.modules.hierarchycore
     version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.burst
+    version: 1.8.18
   - name: com.unity.collections
     version: 2.5.1
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
   - name: com.unity.test-framework
     version: 1.4.5
   - name: com.unity.ext.nunit
     version: 2.0.5
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
   - name: com.unity.test-framework.performance
     version: 3.0.3
   - name: com.unity.2d.pixel-perfect
@@ -535,7 +459,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.31
   source: 1
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.ide.rider
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.ide.rider
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -544,61 +468,17 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: The JetBrains Rider Editor package provides an integration for using
     the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
     .csproj files for code completion and auto-discovery of installations.
   errors: []
   versions:
     all:
-    - 1.0.2
-    - 1.0.6
-    - 1.0.8
-    - 1.1.0
-    - 1.1.1
-    - 1.1.2-preview
-    - 1.1.2-preview.2
-    - 1.1.3-preview.1
-    - 1.1.4-preview
-    - 1.1.4
-    - 1.2.0-preview
-    - 1.2.1
-    - 2.0.0-preview
-    - 2.0.1
-    - 2.0.2
-    - 2.0.3
-    - 2.0.5
-    - 2.0.7
-    - 3.0.1
-    - 3.0.2
-    - 3.0.3
-    - 3.0.4
-    - 3.0.5
-    - 3.0.6
-    - 3.0.7
-    - 3.0.9
-    - 3.0.10
-    - 3.0.12
-    - 3.0.13
-    - 3.0.14
-    - 3.0.15
-    - 3.0.16
-    - 3.0.17
-    - 3.0.18
-    - 3.0.20
-    - 3.0.21
-    - 3.0.22
-    - 3.0.24
-    - 3.0.25
-    - 3.0.26
-    - 3.0.27
-    - 3.0.28
     - 3.0.31
-    - 3.0.34
     compatible:
     - 3.0.31
-    - 3.0.34
-    recommended: 3.0.34
+    recommended: 3.0.31
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -617,9 +497,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638548308080000000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
@@ -654,7 +534,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.22
   source: 1
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.ide.visualstudio
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.ide.visualstudio
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -663,36 +543,13 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Code editor integration for supporting Visual Studio as code editor
     for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
   errors: []
   versions:
     all:
-    - 1.0.2
-    - 1.0.3
-    - 1.0.4
-    - 1.0.9
-    - 1.0.10
-    - 1.0.11
-    - 2.0.0
-    - 2.0.1
-    - 2.0.2
-    - 2.0.3
-    - 2.0.5
-    - 2.0.7
-    - 2.0.8
-    - 2.0.9
-    - 2.0.11
-    - 2.0.12
-    - 2.0.14
-    - 2.0.15
-    - 2.0.16
-    - 2.0.17
-    - 2.0.18
-    - 2.0.20
-    - 2.0.21
     - 2.0.22
     compatible:
     - 2.0.22
@@ -721,9 +578,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638326061910000000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
@@ -760,7 +617,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.11.2
   source: 1
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.inputsystem
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.inputsystem
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -912,7 +769,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.multiplayer.center
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.multiplayer.center
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -928,12 +785,6 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 0.2.1
-    - 0.3.0
-    - 0.4.0
-    - 1.0.0-pre.1
-    - 1.0.0-pre.2
-    - 1.0.0-pre.3
     - 1.0.0
     compatible:
     - 1.0.0
@@ -992,7 +843,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: b27203cbee4b0eb1910981fa8a1f299c8134b318
+  fingerprint: ec9ccc7dc4896b032510da0359c126dd9a500765
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
@@ -1002,7 +853,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.4.0
   source: 1
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.postprocessing
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.postprocessing
   assetPath: Packages/com.unity.postprocessing
   name: com.unity.postprocessing
   displayName: Post Processing
@@ -1011,50 +862,13 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: The post-processing stack (v2) comes with a collection of effects
     and image filters you can apply to your cameras to improve the visuals of your
     games.
   errors: []
   versions:
     all:
-    - 0.1.7
-    - 0.1.8
-    - 2.0.0-beta
-    - 2.0.1-beta
-    - 2.0.2-preview
-    - 2.0.3-preview
-    - 2.0.5-preview
-    - 2.0.7-preview
-    - 2.0.8-preview
-    - 2.0.9-preview
-    - 2.0.10-preview
-    - 2.0.11-preview
-    - 2.0.12-preview
-    - 2.0.13-preview
-    - 2.0.14-preview
-    - 2.0.15-preview
-    - 2.0.16-preview
-    - 2.0.17-preview
-    - 2.1.0
-    - 2.1.1
-    - 2.1.2
-    - 2.1.3
-    - 2.1.4
-    - 2.1.5
-    - 2.1.6
-    - 2.1.7
-    - 2.2.1
-    - 2.2.2
-    - 2.3.0
-    - 3.0.1
-    - 3.0.3
-    - 3.1.0
-    - 3.1.1
-    - 3.2.0
-    - 3.2.1
-    - 3.2.2
-    - 3.3.0
     - 3.4.0
     compatible:
     - 3.4.0
@@ -1077,9 +891,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638384897060000000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.postprocessing@3.4/manual/index.html
   hasRepository: 1
   repository:
@@ -1116,7 +930,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 17.0.3
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.render-pipelines.universal
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.render-pipelines.universal
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal RP
@@ -1133,51 +947,6 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 7.0.0
-    - 7.0.1
-    - 7.1.1
-    - 7.1.2
-    - 7.1.5
-    - 7.1.6
-    - 7.1.7
-    - 7.1.8
-    - 7.2.0
-    - 7.2.1
-    - 7.3.1
-    - 7.4.1
-    - 7.4.2
-    - 7.4.3
-    - 7.5.1
-    - 7.5.2
-    - 7.5.3
-    - 7.6.0
-    - 7.7.0
-    - 7.7.1
-    - 8.0.1
-    - 8.1.0
-    - 8.2.0
-    - 8.3.1
-    - 9.0.0-preview.14
-    - 9.0.0-preview.35
-    - 9.0.0-preview.55
-    - 9.0.0-preview.72
-    - 10.0.0-preview.26
-    - 10.1.0
-    - 10.2.0
-    - 10.2.1
-    - 10.2.2
-    - 10.3.1
-    - 10.3.2
-    - 10.4.0
-    - 10.5.0
-    - 10.5.1
-    - 10.6.0
-    - 10.7.0
-    - 10.8.0
-    - 10.8.1
-    - 10.9.0
-    - 10.10.0
-    - 10.10.1
     - 17.0.3
     compatible:
     - 17.0.3
@@ -1207,12 +976,12 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.collections
     version: 2.5.1
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
   - name: com.unity.test-framework
     version: 1.4.5
   - name: com.unity.ext.nunit
     version: 2.0.5
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
   - name: com.unity.test-framework.performance
     version: 3.0.3
   - name: com.unity.modules.physics
@@ -1268,7 +1037,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 2a7c7c74a6bc0b872bcec9857be27b25a4537bb8
+  fingerprint: e0dd75bc735f5df6b7bf4c10f91d23421d97255d
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.0.3
@@ -1278,7 +1047,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.4.5
   source: 1
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.test-framework
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.test-framework
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1287,70 +1056,14 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Unity Test Framework
-  type: assets
+  type: 
   description: Test framework for running Edit mode and Play mode tests in Unity.
   errors: []
   versions:
     all:
-    - 0.0.4-preview
-    - 0.0.29-preview
-    - 1.0.0
-    - 1.0.7
-    - 1.0.9
-    - 1.0.11
-    - 1.0.12
-    - 1.0.13
-    - 1.0.14
-    - 1.0.16
-    - 1.0.17
-    - 1.0.18
-    - 1.1.0
-    - 1.1.1
-    - 1.1.2
-    - 1.1.3
-    - 1.1.5
-    - 1.1.8
-    - 1.1.9
-    - 1.1.11
-    - 1.1.13
-    - 1.1.14
-    - 1.1.16
-    - 1.1.18
-    - 1.1.19
-    - 1.1.20
-    - 1.1.22
-    - 1.1.24
-    - 1.1.26
-    - 1.1.27
-    - 1.1.29
-    - 1.1.30
-    - 1.1.31
-    - 1.1.33
-    - 1.3.0
-    - 1.3.1
-    - 1.3.2
-    - 1.3.3
-    - 1.3.4
-    - 1.3.5
-    - 1.3.7
-    - 1.3.8
-    - 1.3.9
-    - 1.4.0
-    - 1.4.1
-    - 1.4.2
-    - 1.4.3
-    - 1.4.4
     - 1.4.5
-    - 2.0.1-exp.1
-    - 2.0.1-exp.2
-    - 2.0.1-pre.12
-    - 2.0.1-pre.18
     compatible:
     - 1.4.5
-    - 2.0.1-exp.1
-    - 2.0.1-exp.2
-    - 2.0.1-pre.12
-    - 2.0.1-pre.18
     recommended: 1.4.5
     deprecated: []
   dependencies:
@@ -1380,9 +1093,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638575054880000000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.test-framework@1.4/manual/index.html
   hasRepository: 1
   repository:
@@ -1441,7 +1154,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.7
   source: 1
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.timeline
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.timeline
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1450,115 +1163,30 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Use Unity Timeline to create cinematic content, game-play sequences,
     audio sequences, and complex particle effects.
   errors: []
   versions:
     all:
-    - 1.2.0
-    - 1.2.1
-    - 1.2.2
-    - 1.2.3
-    - 1.2.4
-    - 1.2.5
-    - 1.2.6
-    - 1.2.7
-    - 1.2.9
-    - 1.2.10
-    - 1.2.11
-    - 1.2.12
-    - 1.2.13
-    - 1.2.14
-    - 1.2.15
-    - 1.2.16
-    - 1.2.17
-    - 1.2.18
-    - 1.3.0-preview.2
-    - 1.3.0-preview.3
-    - 1.3.0-preview.5
-    - 1.3.0-preview.6
-    - 1.3.0-preview.7
-    - 1.3.0
-    - 1.3.1
-    - 1.3.2
-    - 1.3.3
-    - 1.3.4
-    - 1.3.5
-    - 1.3.6
-    - 1.3.7
-    - 1.4.0-preview.1
-    - 1.4.0-preview.2
-    - 1.4.0-preview.3
-    - 1.4.0-preview.5
-    - 1.4.0-preview.6
-    - 1.4.0-preview.7
-    - 1.4.0
-    - 1.4.1
-    - 1.4.2
-    - 1.4.3
-    - 1.4.4
-    - 1.4.5
-    - 1.4.6
-    - 1.4.7
-    - 1.4.8
-    - 1.5.0-pre.2
-    - 1.5.0-preview.1
-    - 1.5.0-preview.2
-    - 1.5.0-preview.3
-    - 1.5.0-preview.4
-    - 1.5.0-preview.5
-    - 1.5.1-pre.1
-    - 1.5.1-pre.2
-    - 1.5.1-pre.3
-    - 1.5.2
-    - 1.5.4
-    - 1.5.5
-    - 1.5.6
-    - 1.5.7
-    - 1.6.0-pre.1
-    - 1.6.0-pre.3
-    - 1.6.0-pre.4
-    - 1.6.0-pre.5
-    - 1.6.1
-    - 1.6.2
-    - 1.6.3
-    - 1.6.4
-    - 1.6.5
-    - 1.7.0-pre.1
-    - 1.7.0-pre.2
-    - 1.7.0
-    - 1.7.1
-    - 1.7.2
-    - 1.7.3
-    - 1.7.4
-    - 1.7.5
-    - 1.7.6
-    - 1.8.0
-    - 1.8.1
-    - 1.8.2
-    - 1.8.3
-    - 1.8.4
-    - 1.8.5
-    - 1.8.6
     - 1.8.7
     compatible:
     - 1.8.7
     recommended: 1.8.7
     deprecated: []
   dependencies:
-  - name: com.unity.modules.audio
-    version: 1.0.0
   - name: com.unity.modules.director
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
   - name: com.unity.modules.particlesystem
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.modules.audio
-    version: 1.0.0
   - name: com.unity.modules.director
+    version: 1.0.0
+  - name: com.unity.modules.audio
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
@@ -1580,9 +1208,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638524833900000000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.8/manual/index.html
   hasRepository: 1
   repository:
@@ -1624,7 +1252,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.ugui
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.ugui
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1642,14 +1270,8 @@ m_ResolvedPackages:
   versions:
     all:
     - 2.0.0
-    - 3.0.0-exp.1
-    - 3.0.0-exp.3
-    - 3.0.0-exp.4
     compatible:
     - 2.0.0
-    - 3.0.0-exp.1
-    - 3.0.0-exp.3
-    - 3.0.0-exp.4
     recommended: 2.0.0
     deprecated: []
   dependencies:
@@ -1706,7 +1328,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 0187e0e77e6c4674362938fa5a77e1c92574f3dd
+  fingerprint: a56235b8fe25c8181fffcf871a5f45558ee12e26
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.0
@@ -1716,7 +1338,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.4
   source: 1
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.visualscripting
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.visualscripting
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1741,31 +1363,10 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 1.5.0
-    - 1.5.1-pre.3
-    - 1.5.1-pre.5
-    - 1.5.1
-    - 1.5.2
-    - 1.6.0-pre.3
-    - 1.6.0
-    - 1.6.1
-    - 1.7.1
-    - 1.7.2
-    - 1.7.3
-    - 1.7.5
-    - 1.7.6
-    - 1.7.7
-    - 1.7.8
-    - 1.8.0
-    - 1.9.0
-    - 1.9.1
-    - 1.9.2
     - 1.9.4
-    - 1.9.5
     compatible:
     - 1.9.4
-    - 1.9.5
-    recommended: 1.9.5
+    recommended: 1.9.4
     deprecated: []
   dependencies:
   - name: com.unity.ugui
@@ -1792,9 +1393,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638488567680000000
+  datePublishedTicks: 0
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -1827,7 +1428,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.accessibility
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.accessibility
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -1894,7 +1495,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.ai
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.ai
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1961,7 +1562,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.androidjni
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.androidjni
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -2027,7 +1628,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.animation
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.animation
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -2094,7 +1695,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.assetbundle
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.assetbundle
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -2161,7 +1762,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.audio
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.audio
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -2228,7 +1829,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.cloth
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.cloth
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -2299,7 +1900,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.director
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.director
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -2374,7 +1975,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.imageconversion
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.imageconversion
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -2441,7 +2042,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.imgui
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.imgui
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -2508,7 +2109,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.jsonserialize
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.jsonserialize
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -2575,7 +2176,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.particlesystem
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.particlesystem
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -2642,7 +2243,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.physics
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.physics
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -2709,7 +2310,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.physics2d
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.physics2d
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2776,7 +2377,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.screencapture
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.screencapture
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2847,7 +2448,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.terrain
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.terrain
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2914,7 +2515,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.terrainphysics
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.terrainphysics
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2989,7 +2590,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.tilemap
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.tilemap
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -3059,7 +2660,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.ui
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.ui
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -3126,7 +2727,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.uielements
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.uielements
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -3209,7 +2810,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.umbra
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.umbra
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -3276,7 +2877,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.unityanalytics
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.unityanalytics
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -3350,7 +2951,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.unitywebrequest
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.unitywebrequest
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -3417,7 +3018,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -3492,7 +3093,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.unitywebrequestaudio
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.unitywebrequestaudio
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -3567,7 +3168,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.unitywebrequesttexture
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.unitywebrequesttexture
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -3642,7 +3243,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.unitywebrequestwww
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.unitywebrequestwww
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -3733,7 +3334,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.vehicles
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.vehicles
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -3804,7 +3405,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.video
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.video
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -3883,7 +3484,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.vr
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.vr
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -3964,7 +3565,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.wind
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.wind
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -4031,7 +3632,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.xr
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.xr
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -4110,7 +3711,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.subsystems
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.subsystems
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -4181,7 +3782,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.modules.hierarchycore
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.modules.hierarchycore
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -4248,7 +3849,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 1
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.ext.nunit
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.ext.nunit
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -4257,21 +3858,12 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Libraries
-  type: assets
+  type: 
   description: A custom version of NUnit used by Unity Test Framework. Based on NUnit
     version 3.5 and works with all platforms, il2cpp and Mono AOT.
   errors: []
   versions:
     all:
-    - 0.1.5-preview
-    - 0.1.6-preview
-    - 0.1.9-preview
-    - 1.0.0
-    - 1.0.5
-    - 1.0.6
-    - 2.0.2
-    - 2.0.3
-    - 2.0.4
     - 2.0.5
     compatible:
     - 2.0.5
@@ -4293,9 +3885,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638236642220000000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ext.nunit@2.0/manual/index.html
   hasRepository: 1
   repository:
@@ -4327,7 +3919,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.3
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.render-pipelines.core
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.render-pipelines.core
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Core RP Library
@@ -4347,104 +3939,6 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 0.1.21
-    - 0.1.27
-    - 0.1.28
-    - 1.0.0-beta
-    - 1.0.1-beta
-    - 1.1.1-preview
-    - 1.1.2-preview
-    - 1.1.4-preview
-    - 1.1.5-preview
-    - 1.1.8-preview
-    - 1.1.10-preview
-    - 1.1.11-preview
-    - 2.0.1-preview
-    - 2.0.3-preview
-    - 2.0.4-preview
-    - 2.0.4-preview.1
-    - 2.0.5-preview
-    - 2.0.6-preview
-    - 2.0.7-preview
-    - 2.0.8-preview
-    - 3.0.0-preview
-    - 3.1.0-preview
-    - 3.3.0-preview
-    - 4.0.0-preview
-    - 4.0.1-preview
-    - 4.1.0-preview
-    - 4.2.0-preview
-    - 4.3.0-preview
-    - 4.6.0-preview
-    - 4.8.0-preview
-    - 4.9.0-preview
-    - 4.10.0-preview
-    - 5.0.0-preview
-    - 5.1.0
-    - 5.2.0
-    - 5.2.1
-    - 5.2.2
-    - 5.2.3
-    - 5.3.1
-    - 5.6.1
-    - 5.7.2
-    - 5.8.2
-    - 5.9.0
-    - 5.10.0
-    - 5.13.0
-    - 5.16.1
-    - 6.5.2
-    - 6.5.3
-    - 6.7.1
-    - 6.9.0
-    - 6.9.1
-    - 6.9.2
-    - 7.0.0
-    - 7.0.1
-    - 7.1.1
-    - 7.1.2
-    - 7.1.5
-    - 7.1.6
-    - 7.1.7
-    - 7.1.8
-    - 7.2.0
-    - 7.2.1
-    - 7.3.1
-    - 7.4.1
-    - 7.4.2
-    - 7.4.3
-    - 7.5.1
-    - 7.5.2
-    - 7.5.3
-    - 7.6.0
-    - 7.7.0
-    - 7.7.1
-    - 8.0.1
-    - 8.1.0
-    - 8.2.0
-    - 8.3.1
-    - 9.0.0-preview.13
-    - 9.0.0-preview.35
-    - 9.0.0-preview.38
-    - 9.0.0-preview.60
-    - 9.0.0-preview.77
-    - 10.0.0-preview.30
-    - 10.1.0
-    - 10.2.0
-    - 10.2.1
-    - 10.2.2
-    - 10.3.1
-    - 10.3.2
-    - 10.4.0
-    - 10.5.0
-    - 10.5.1
-    - 10.6.0
-    - 10.7.0
-    - 10.8.0
-    - 10.8.1
-    - 10.9.0
-    - 10.10.0
-    - 10.10.1
     - 17.0.3
     compatible:
     - 17.0.3
@@ -4482,12 +3976,12 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.collections
     version: 2.5.1
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
   - name: com.unity.test-framework
     version: 1.4.5
   - name: com.unity.ext.nunit
     version: 2.0.5
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
   - name: com.unity.test-framework.performance
     version: 3.0.3
   - name: com.unity.modules.physics
@@ -4531,7 +4025,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 6abb1a8fafe736c8deaef35d964ef98ef03b999e
+  fingerprint: d889a890e3a55dec5b56b60fcce1b3def78218c5
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.0.3
@@ -4541,7 +4035,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.3
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.shadergraph
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.shadergraph
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -4559,103 +4053,6 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 0.1.8
-    - 0.1.9
-    - 0.1.17
-    - 1.0.0-beta
-    - 1.1.1-preview
-    - 1.1.2-preview
-    - 1.1.3-preview
-    - 1.1.4-preview
-    - 1.1.5-preview
-    - 1.1.6-preview
-    - 1.1.8-preview
-    - 1.1.9-preview
-    - 2.0.1-preview
-    - 2.0.3-preview
-    - 2.0.4-preview
-    - 2.0.4-preview.1
-    - 2.0.5-preview
-    - 2.0.6-preview
-    - 2.0.7-preview
-    - 2.0.8-preview
-    - 3.0.0-preview
-    - 3.1.0-preview
-    - 3.3.0-preview
-    - 4.0.0-preview
-    - 4.0.1-preview
-    - 4.1.0-preview
-    - 4.2.0-preview
-    - 4.3.0-preview
-    - 4.6.0-preview
-    - 4.8.0-preview
-    - 4.9.0-preview
-    - 4.10.0-preview
-    - 5.0.0-preview
-    - 5.1.0
-    - 5.2.0
-    - 5.2.1
-    - 5.2.2
-    - 5.2.3
-    - 5.3.1
-    - 5.6.1
-    - 5.7.2
-    - 5.8.2
-    - 5.9.0
-    - 5.10.0
-    - 5.13.0
-    - 5.16.1
-    - 6.5.2
-    - 6.5.3
-    - 6.7.1
-    - 6.9.0
-    - 6.9.1
-    - 6.9.2
-    - 7.0.0
-    - 7.0.1
-    - 7.1.1
-    - 7.1.2
-    - 7.1.5
-    - 7.1.6
-    - 7.1.7
-    - 7.1.8
-    - 7.2.0
-    - 7.2.1
-    - 7.3.1
-    - 7.4.1
-    - 7.4.2
-    - 7.4.3
-    - 7.5.1
-    - 7.5.2
-    - 7.5.3
-    - 7.6.0
-    - 7.7.0
-    - 7.7.1
-    - 8.0.1
-    - 8.1.0
-    - 8.2.0
-    - 8.3.1
-    - 9.0.0-preview.14
-    - 9.0.0-preview.34
-    - 9.0.0-preview.55
-    - 9.0.0-preview.72
-    - 10.0.0-preview.27
-    - 10.1.0
-    - 10.2.0
-    - 10.2.1
-    - 10.2.2
-    - 10.3.1
-    - 10.3.2
-    - 10.4.0
-    - 10.5.0
-    - 10.5.1
-    - 10.6.0
-    - 10.7.0
-    - 10.8.0
-    - 10.8.1
-    - 10.9.0
-    - 10.10.0
-    - 10.10.1
     - 17.0.3
     compatible:
     - 17.0.3
@@ -4683,12 +4080,12 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.collections
     version: 2.5.1
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
   - name: com.unity.test-framework
     version: 1.4.5
   - name: com.unity.ext.nunit
     version: 2.0.5
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
   - name: com.unity.test-framework.performance
     version: 3.0.3
   - name: com.unity.modules.physics
@@ -4734,7 +4131,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 2a323fec5dcc1ed9dbe9f3565d9515da8cc6058b
+  fingerprint: e68896b8e8d28b2f100b0c92284533f1fcf273aa
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.0.3
@@ -4744,7 +4141,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.3
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.render-pipelines.universal-config
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.render-pipelines.universal-config
   assetPath: Packages/com.unity.render-pipelines.universal-config
   name: com.unity.render-pipelines.universal-config
   displayName: Universal RP Config
@@ -4783,12 +4180,12 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.collections
     version: 2.5.1
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
   - name: com.unity.test-framework
     version: 1.4.5
   - name: com.unity.ext.nunit
     version: 2.0.5
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
   - name: com.unity.test-framework.performance
     version: 3.0.3
   - name: com.unity.modules.physics
@@ -4832,7 +4229,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: fa63c96d3e1af317d84d171cd6c0e0658ab159df
+  fingerprint: ae49062cc978b6d8906942c0f746974868ff489e
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.0.3
@@ -4842,7 +4239,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 10.1.3
   source: 1
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.2d.animation
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.2d.animation
   assetPath: Packages/com.unity.2d.animation
   name: com.unity.2d.animation
   displayName: 2D Animation
@@ -4851,146 +4248,16 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: asset
+  type: 
   description: 2D Animation provides all the necessary tooling and runtime components
     for skeletal animation using Sprites.
   errors: []
   versions:
     all:
-    - 1.0.15-preview.1
-    - 1.0.15-preview.2
-    - 1.0.15-preview.3
-    - 1.0.15-preview.4
-    - 1.0.15-preview.5
-    - 1.0.16-preview
-    - 1.0.16-preview.1
-    - 1.0.16-preview.2
-    - 2.0.0-preview.1
-    - 2.0.0-preview.2
-    - 2.0.0-preview.3
-    - 2.1.0-preview.1
-    - 2.1.0-preview.2
-    - 2.1.0-preview.4
-    - 2.1.0-preview.5
-    - 2.1.0-preview.7
-    - 2.2.0-preview.1
-    - 2.2.0-preview.4
-    - 2.2.0-preview.5
-    - 2.2.1-preview.1
-    - 2.2.1-preview.2
-    - 3.0.2
-    - 3.0.3
-    - 3.0.4
-    - 3.0.5
-    - 3.0.6
-    - 3.0.8
-    - 3.1.0
-    - 3.1.1
-    - 3.2.1
-    - 3.2.2
-    - 3.2.3
-    - 3.2.4
-    - 3.2.5
-    - 3.2.6
-    - 3.2.9
-    - 3.2.10
-    - 3.2.11
-    - 3.2.13
-    - 3.2.14
-    - 3.2.15
-    - 3.2.16
-    - 3.2.17
-    - 3.2.18
-    - 4.0.0
-    - 4.0.1
-    - 4.1.0
-    - 4.1.1
-    - 4.2.1
-    - 4.2.2
-    - 4.2.3
-    - 4.2.4
-    - 4.2.5
-    - 4.2.6
-    - 4.2.8
-    - 5.0.0
-    - 5.0.1
-    - 5.0.2
-    - 5.0.3
-    - 5.0.4
-    - 5.0.5
-    - 5.0.6
-    - 5.0.7
-    - 5.0.8
-    - 5.0.9
-    - 5.0.10
-    - 5.1.0
-    - 5.1.1
-    - 5.2.0
-    - 5.2.1
-    - 5.2.3
-    - 5.2.4
-    - 5.2.6
-    - 5.2.7
-    - 6.0.0-pre.1
-    - 6.0.0-pre.2
-    - 6.0.1
-    - 6.0.3
-    - 6.0.4
-    - 6.0.5
-    - 6.0.7
-    - 7.0.0-pre.2
-    - 7.0.0-pre.3
-    - 7.0.0
-    - 7.0.1
-    - 7.0.2
-    - 7.0.3
-    - 7.0.4
-    - 7.0.5
-    - 7.0.6
-    - 7.0.7
-    - 7.0.8
-    - 7.0.9
-    - 7.0.10
-    - 7.0.11
-    - 7.0.12
-    - 7.0.13
-    - 7.1.0
-    - 7.1.1
-    - 7.1.2
-    - 8.0.0-pre.3
-    - 8.0.0-pre.4
-    - 8.0.0
-    - 8.0.1
-    - 8.0.2
-    - 8.0.3
-    - 8.0.4
-    - 8.0.5
-    - 9.0.0-pre.1
-    - 9.0.0-pre.3
-    - 9.0.0
-    - 9.0.1
-    - 9.0.2
-    - 9.0.3
-    - 9.0.4
-    - 9.1.0
-    - 9.1.1
-    - 9.1.2
-    - 9.1.3
-    - 10.0.0-pre.1
-    - 10.0.0-pre.2
-    - 10.0.0
-    - 10.0.1
-    - 10.0.2
-    - 10.0.3
-    - 10.1.0
-    - 10.1.1
-    - 10.1.2
     - 10.1.3
-    - 10.1.4
     compatible:
     - 10.1.3
-    - 10.1.4
-    recommended: 10.1.4
+    recommended: 10.1.3
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
@@ -5006,32 +4273,32 @@ m_ResolvedPackages:
   resolvedDependencies:
   - name: com.unity.2d.common
     version: 9.0.6
-  - name: com.unity.burst
-    version: 1.8.18
-  - name: com.unity.mathematics
-    version: 1.3.2
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
   - name: com.unity.2d.sprite
     version: 1.0.0
-  - name: com.unity.modules.animation
-    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.3.2
   - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
   - name: com.unity.modules.hierarchycore
     version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.burst
+    version: 1.8.18
   - name: com.unity.collections
     version: 2.5.1
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
   - name: com.unity.test-framework
     version: 1.4.5
   - name: com.unity.ext.nunit
     version: 2.0.5
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
   - name: com.unity.test-framework.performance
     version: 3.0.3
   keywords:
@@ -5047,9 +4314,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638587939350000000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.animation@10.1/manual/index.html
   hasRepository: 1
   repository:
@@ -5094,7 +4361,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 5.0.3
   source: 1
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.2d.pixel-perfect
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.2d.pixel-perfect
   assetPath: Packages/com.unity.2d.pixel-perfect
   name: com.unity.2d.pixel-perfect
   displayName: 2D Pixel Perfect
@@ -5117,22 +4384,6 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 1.0.0-preview
-    - 1.0.1-preview
-    - 2.0.2
-    - 2.0.3
-    - 2.0.4
-    - 2.1.0
-    - 3.0.0
-    - 3.0.1
-    - 3.0.2
-    - 4.0.0
-    - 4.0.1
-    - 5.0.0-pre.1
-    - 5.0.0-pre.2
-    - 5.0.0
-    - 5.0.1
-    - 5.0.2
     - 5.0.3
     compatible:
     - 5.0.3
@@ -5155,9 +4406,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638023910590000000
+  datePublishedTicks: 0
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -5189,7 +4440,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 9.0.3
   source: 1
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.2d.psdimporter
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.2d.psdimporter
   assetPath: Packages/com.unity.2d.psdimporter
   name: com.unity.2d.psdimporter
   displayName: 2D PSD Importer
@@ -5198,91 +4449,13 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: assets
+  type: 
   description: A ScriptedImporter for importing Adobe Photoshop PSB (Photoshop Big)
     file format. The ScriptedImporter is currently targeted for users who wants to
     create multi Sprite character animation using Unity 2D Animation Package.
   errors: []
   versions:
     all:
-    - 1.0.0-preview.1
-    - 1.0.0-preview.2
-    - 1.0.0-preview.3
-    - 1.0.0-preview.4
-    - 1.1.0-preview.1
-    - 1.1.0-preview.3
-    - 1.2.0-preview.1
-    - 1.2.0-preview.3
-    - 1.2.0-preview.4
-    - 2.0.2
-    - 2.0.3
-    - 2.0.4
-    - 2.0.5
-    - 2.0.7
-    - 2.1.0
-    - 2.1.3
-    - 2.1.4
-    - 2.1.5
-    - 2.1.6
-    - 2.1.8
-    - 2.1.9
-    - 2.1.10
-    - 2.1.11
-    - 3.0.0
-    - 3.1.1
-    - 3.1.3
-    - 3.1.4
-    - 3.1.5
-    - 3.1.6
-    - 3.1.7
-    - 4.0.0
-    - 4.0.1
-    - 4.0.2
-    - 4.1.0
-    - 4.1.1
-    - 4.1.2
-    - 4.1.3
-    - 4.2.0
-    - 4.3.0
-    - 4.3.1
-    - 5.0.0-pre.1
-    - 5.0.0-pre.2
-    - 5.0.1
-    - 5.0.3
-    - 5.0.4
-    - 5.0.6
-    - 6.0.0-pre.2
-    - 6.0.0-pre.3
-    - 6.0.0-pre.4
-    - 6.0.0
-    - 6.0.1
-    - 6.0.2
-    - 6.0.3
-    - 6.0.4
-    - 6.0.5
-    - 6.0.6
-    - 6.0.7
-    - 6.0.8
-    - 6.0.9
-    - 7.0.0-pre.3
-    - 7.0.0-pre.4
-    - 7.0.0
-    - 7.0.1
-    - 7.0.2
-    - 7.0.3
-    - 8.0.0-pre.1
-    - 8.0.0-pre.3
-    - 8.0.0
-    - 8.0.1
-    - 8.0.2
-    - 8.0.3
-    - 8.0.4
-    - 8.0.5
-    - 9.0.0-pre.1
-    - 9.0.0-pre.2
-    - 9.0.0
-    - 9.0.1
-    - 9.0.2
     - 9.0.3
     compatible:
     - 9.0.3
@@ -5296,24 +4469,24 @@ m_ResolvedPackages:
   resolvedDependencies:
   - name: com.unity.2d.common
     version: 9.0.6
-  - name: com.unity.burst
-    version: 1.8.18
-  - name: com.unity.mathematics
-    version: 1.3.2
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
   - name: com.unity.2d.sprite
     version: 1.0.0
-  - name: com.unity.modules.animation
-    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.3.2
   - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
   - name: com.unity.modules.hierarchycore
     version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.burst
+    version: 1.8.18
   keywords:
   - 2d
   - psdimporter
@@ -5328,9 +4501,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638489453630000000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.psdimporter@9.0/manual/index.html
   hasRepository: 1
   repository:
@@ -5364,7 +4537,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.2d.sprite
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.2d.sprite
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -5424,7 +4597,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 0e70656ef5df5c7161c8cfc6f24ab0dde0dc637e
+  fingerprint: 347e4654968a70cf1061ab668c2151774366a724
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
@@ -5434,7 +4607,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 10.0.6
   source: 1
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.2d.spriteshape
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.2d.spriteshape
   assetPath: Packages/com.unity.2d.spriteshape
   name: com.unity.2d.spriteshape
   displayName: 2D SpriteShape
@@ -5443,127 +4616,31 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: assets
+  type: 
   description: SpriteShape Runtime & Editor Package contains the tooling and the
     runtime component that allows you to create very organic looking spline based
     2D worlds. It comes with intuitive configurator and a highly performant renderer.
   errors: []
   versions:
     all:
-    - 1.0.10-preview.2
-    - 1.0.11-preview
-    - 1.0.12-preview
-    - 1.0.12-preview.1
-    - 1.0.14-preview.2
-    - 2.0.0-preview.4
-    - 2.0.0-preview.5
-    - 2.0.0-preview.7
-    - 2.0.0-preview.8
-    - 2.0.0-preview.9
-    - 2.1.0-preview.2
-    - 2.1.0-preview.6
-    - 2.1.0-preview.7
-    - 2.1.0-preview.10
-    - 2.1.0-preview.11
-    - 3.0.1
-    - 3.0.2
-    - 3.0.4
-    - 3.0.5
-    - 3.0.6
-    - 3.0.7
-    - 3.0.8
-    - 3.0.9
-    - 3.0.10
-    - 3.0.11
-    - 3.0.12
-    - 3.0.13
-    - 3.0.14
-    - 3.0.15
-    - 3.0.16
-    - 3.0.17
-    - 3.0.18
-    - 4.0.0
-    - 4.0.1
-    - 4.0.2
-    - 4.0.3
-    - 4.1.0
-    - 4.1.1
-    - 4.1.2
-    - 4.1.3
-    - 4.1.4
-    - 4.1.5
-    - 5.0.0
-    - 5.0.1
-    - 5.0.2
-    - 5.1.0
-    - 5.1.1
-    - 5.1.2
-    - 5.1.3
-    - 5.1.4
-    - 5.1.5
-    - 5.1.6
-    - 5.1.7
-    - 5.2.0
-    - 5.3.0
-    - 6.0.0-pre.1
-    - 6.0.0-pre.2
-    - 6.0.0
-    - 6.0.1
-    - 6.0.2
-    - 7.0.0-pre.2
-    - 7.0.0-pre.3
-    - 7.0.0
-    - 7.0.2
-    - 7.0.3
-    - 7.0.4
-    - 7.0.5
-    - 7.0.6
-    - 7.0.7
-    - 8.0.0-pre.4
-    - 8.0.0-pre.5
-    - 8.0.0
-    - 8.0.1
-    - 9.0.0-pre.1
-    - 9.0.0
-    - 9.0.1
-    - 9.0.2
-    - 9.0.3
-    - 9.0.4
-    - 9.0.5
-    - 10.0.0-pre.1
-    - 10.0.0-pre.2
-    - 10.0.0
-    - 10.0.1
-    - 10.0.2
-    - 10.0.3
-    - 10.0.4
-    - 10.0.5
     - 10.0.6
-    - 10.0.7
     compatible:
     - 10.0.6
-    - 10.0.7
-    recommended: 10.0.7
+    recommended: 10.0.6
     deprecated: []
   dependencies:
-  - name: com.unity.2d.common
-    version: 9.0.5
   - name: com.unity.mathematics
     version: 1.1.0
+  - name: com.unity.2d.common
+    version: 9.0.5
   - name: com.unity.modules.physics2d
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.2d.common
-    version: 9.0.6
-  - name: com.unity.burst
-    version: 1.8.18
   - name: com.unity.mathematics
     version: 1.3.2
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
+  - name: com.unity.2d.common
+    version: 9.0.6
   - name: com.unity.2d.sprite
-    version: 1.0.0
-  - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.modules.uielements
     version: 1.0.0
@@ -5571,8 +4648,14 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
   - name: com.unity.modules.hierarchycore
     version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.burst
+    version: 1.8.18
   - name: com.unity.modules.physics2d
     version: 1.0.0
   keywords:
@@ -5592,9 +4675,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638521593200000000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.spriteshape@10.0/manual/index.html
   hasRepository: 1
   repository:
@@ -5627,7 +4710,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.2d.tilemap
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.2d.tilemap
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -5704,7 +4787,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 6bdab8e797050ef862d77161c1dd31c993cc2a57
+  fingerprint: e18791ccf4b957cc364276b773d591d3e0662461
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
@@ -5714,7 +4797,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.0.2
   source: 1
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.2d.tilemap.extras
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.2d.tilemap.extras
   assetPath: Packages/com.unity.2d.tilemap.extras
   name: com.unity.2d.tilemap.extras
   displayName: 2D Tilemap Extras
@@ -5723,7 +4806,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: assets
+  type: 
   description: '2D Tilemap Extras is a package that contains extra scripts for use
     with 2D Tilemap features in Unity. These include custom Tiles and Brushes for
     the Tilemap feature.
@@ -5742,78 +4825,39 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 1.5.0-preview
-    - 1.6.0-preview.1
-    - 1.6.1-preview
-    - 1.6.2-preview
-    - 1.6.3-preview
-    - 1.6.4-preview
-    - 1.7.0-preview
-    - 1.8.0-preview
-    - 1.8.1-preview
-    - 1.8.2-preview
-    - 1.8.3-preview
-    - 1.8.4-preview
-    - 2.0.0-pre.1
-    - 2.0.0-pre.2
-    - 2.0.0
-    - 2.2.0
-    - 2.2.1
-    - 2.2.2
-    - 2.2.3
-    - 2.2.4
-    - 2.2.5
-    - 2.2.6
-    - 2.2.7
-    - 2.2.8
-    - 3.0.0
-    - 3.0.1
-    - 3.0.2
-    - 3.0.3
-    - 3.1.0
-    - 3.1.1
-    - 3.1.2
-    - 3.1.3
-    - 4.0.0-pre.1
-    - 4.0.0-pre.2
-    - 4.0.0-pre.3
-    - 4.0.0
-    - 4.0.1
     - 4.0.2
-    - 4.1.0
     compatible:
     - 4.0.2
-    - 4.1.0
     recommended: 4.0.2
     deprecated: []
   dependencies:
-  - name: com.unity.ugui
+  - name: com.unity.modules.tilemap
     version: 1.0.0
   - name: com.unity.2d.tilemap
     version: 1.0.0
-  - name: com.unity.modules.tilemap
+  - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.ugui
-    version: 2.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.2d.tilemap
-    version: 1.0.0
   - name: com.unity.modules.tilemap
     version: 1.0.0
   - name: com.unity.modules.physics2d
     version: 1.0.0
+  - name: com.unity.2d.tilemap
+    version: 1.0.0
   - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.modules.hierarchycore
     version: 1.0.0
+  - name: com.unity.ugui
+    version: 2.0.0
   keywords:
   - 2d
   registry:
@@ -5826,9 +4870,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638294344990000000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@4.0/manual/index.html
   hasRepository: 1
   repository:
@@ -5861,7 +4905,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.1.6
   source: 1
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.2d.aseprite
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.2d.aseprite
   assetPath: Packages/com.unity.2d.aseprite
   name: com.unity.2d.aseprite
   displayName: 2D Aseprite Importer
@@ -5876,55 +4920,41 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 1.0.0-pre.1
-    - 1.0.0-pre.2
-    - 1.0.0-pre.3
-    - 1.0.0-pre.4
-    - 1.0.0
-    - 1.0.1
-    - 1.1.0
-    - 1.1.1
-    - 1.1.2
-    - 1.1.3
-    - 1.1.4
-    - 1.1.5
     - 1.1.6
-    - 1.1.7
     compatible:
     - 1.1.6
-    - 1.1.7
-    recommended: 1.1.7
+    recommended: 1.1.6
     deprecated: []
   dependencies:
-  - name: com.unity.2d.common
-    version: 6.0.6
   - name: com.unity.2d.sprite
     version: 1.0.0
+  - name: com.unity.2d.common
+    version: 6.0.6
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.modules.animation
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.2d.common
-    version: 9.0.6
-  - name: com.unity.burst
-    version: 1.8.18
-  - name: com.unity.mathematics
-    version: 1.3.2
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
   - name: com.unity.2d.sprite
     version: 1.0.0
-  - name: com.unity.modules.animation
-    version: 1.0.0
+  - name: com.unity.2d.common
+    version: 9.0.6
+  - name: com.unity.mathematics
+    version: 1.3.2
   - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
   - name: com.unity.modules.hierarchycore
     version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.burst
+    version: 1.8.18
   keywords:
   - 2d
   - Aseprite
@@ -5941,9 +4971,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638608683682080000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.aseprite@1.1/manual/index.html
   hasRepository: 1
   repository:
@@ -5976,7 +5006,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.6.1
   source: 1
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.splines
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.splines
   assetPath: Packages/com.unity.splines
   name: com.unity.splines
   displayName: Splines
@@ -5991,51 +5021,29 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 0.1.0-preview.1
-    - 1.0.0-pre.5
-    - 1.0.0-pre.7
-    - 1.0.0-pre.8
-    - 1.0.0-pre.9
-    - 1.0.0
-    - 1.0.1
-    - 2.0.0-pre.2
-    - 2.0.0-pre.4
-    - 2.0.0
-    - 2.1.0
-    - 2.2.0
-    - 2.2.1
-    - 2.3.0
-    - 2.4.0
-    - 2.5.1
-    - 2.5.2
-    - 2.6.0
     - 2.6.1
-    - 2.7.1
-    - 2.7.2
     compatible:
     - 2.6.1
-    - 2.7.1
-    - 2.7.2
     recommended: 2.6.1
     deprecated: []
   dependencies:
-  - name: com.unity.ugui
-    version: 1.0.0
-  - name: com.unity.mathematics
-    version: 1.2.1
   - name: com.unity.settings-manager
     version: 1.0.3
+  - name: com.unity.mathematics
+    version: 1.2.1
+  - name: com.unity.ugui
+    version: 1.0.0
   resolvedDependencies:
+  - name: com.unity.settings-manager
+    version: 2.0.1
+  - name: com.unity.mathematics
+    version: 1.3.2
   - name: com.unity.ugui
     version: 2.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.mathematics
-    version: 1.3.2
-  - name: com.unity.settings-manager
-    version: 2.0.1
   keywords:
   - spline
   - curve
@@ -6050,9 +5058,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638522292040000000
+  datePublishedTicks: 0
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -6095,7 +5103,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.9.2
   source: 1
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.searcher
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.searcher
   assetPath: Packages/com.unity.searcher
   name: com.unity.searcher
   displayName: Searcher
@@ -6104,27 +5112,12 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: General search window for use in the Editor. First target use is for
     GraphView node search.
   errors: []
   versions:
     all:
-    - 4.0.0-preview
-    - 4.0.0
-    - 4.0.7-preview
-    - 4.0.7
-    - 4.0.8-preview
-    - 4.0.9
-    - 4.1.0-preview
-    - 4.1.0
-    - 4.2.0
-    - 4.3.0
-    - 4.3.1
-    - 4.3.2
-    - 4.6.0-preview
-    - 4.7.0-preview
-    - 4.9.1
     - 4.9.2
     compatible:
     - 4.9.2
@@ -6145,9 +5138,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637831252240000000
+  datePublishedTicks: 0
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -6179,7 +5172,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.8.18
   source: 1
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.burst
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.burst
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -6194,138 +5187,6 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 0.2.4-preview.5
-    - 0.2.4-preview.7
-    - 0.2.4-preview.11
-    - 0.2.4-preview.12
-    - 0.2.4-preview.13
-    - 0.2.4-preview.14
-    - 0.2.4-preview.15
-    - 0.2.4-preview.16
-    - 0.2.4-preview.17
-    - 0.2.4-preview.18
-    - 0.2.4-preview.19
-    - 0.2.4-preview.20
-    - 0.2.4-preview.21
-    - 0.2.4-preview.22
-    - 0.2.4-preview.23
-    - 0.2.4-preview.24
-    - 0.2.4-preview.25
-    - 0.2.4-preview.30
-    - 0.2.4-preview.31
-    - 0.2.4-preview.33
-    - 0.2.4-preview.34
-    - 0.2.4-preview.37
-    - 0.2.4-preview.41
-    - 0.2.4-preview.45
-    - 0.2.4-preview.48
-    - 0.2.4-preview.50
-    - 1.1.0-preview.2
-    - 1.1.0-preview.3
-    - 1.1.0-preview.4
-    - 1.1.1
-    - 1.1.2
-    - 1.1.3-preview.3
-    - 1.2.0-preview.1
-    - 1.2.0-preview.5
-    - 1.2.0-preview.6
-    - 1.2.0-preview.8
-    - 1.2.0-preview.9
-    - 1.2.0-preview.10
-    - 1.2.0-preview.11
-    - 1.2.0-preview.12
-    - 1.2.0
-    - 1.2.1
-    - 1.2.2
-    - 1.2.3
-    - 1.3.0-preview.1
-    - 1.3.0-preview.2
-    - 1.3.0-preview.3
-    - 1.3.0-preview.4
-    - 1.3.0-preview.5
-    - 1.3.0-preview.6
-    - 1.3.0-preview.7
-    - 1.3.0-preview.8
-    - 1.3.0-preview.9
-    - 1.3.0-preview.10
-    - 1.3.0-preview.11
-    - 1.3.0-preview.12
-    - 1.3.0-preview.13
-    - 1.3.0
-    - 1.3.1
-    - 1.3.2
-    - 1.3.3
-    - 1.3.4
-    - 1.3.5
-    - 1.3.6
-    - 1.3.7
-    - 1.3.8
-    - 1.3.9
-    - 1.4.0-pre.1
-    - 1.4.0-preview.1
-    - 1.4.0-preview.2
-    - 1.4.0-preview.3
-    - 1.4.0-preview.4
-    - 1.4.0-preview.5
-    - 1.4.1-pre.1
-    - 1.4.1-pre.2
-    - 1.4.1
-    - 1.4.2
-    - 1.4.3
-    - 1.4.4-preview.1
-    - 1.4.4-preview.2
-    - 1.4.4
-    - 1.4.5
-    - 1.4.6
-    - 1.4.7
-    - 1.4.8
-    - 1.4.9
-    - 1.4.11
-    - 1.5.0-pre.3
-    - 1.5.0-pre.4
-    - 1.5.0-pre.5
-    - 1.5.0
-    - 1.5.1
-    - 1.5.2
-    - 1.5.3
-    - 1.5.4
-    - 1.5.5
-    - 1.5.6-preview.1
-    - 1.5.6
-    - 1.6.0-pre.2
-    - 1.6.0-pre.3
-    - 1.6.0-pre.4
-    - 1.6.0
-    - 1.6.1
-    - 1.6.2
-    - 1.6.3
-    - 1.6.4
-    - 1.6.5
-    - 1.6.6
-    - 1.7.0-pre.1
-    - 1.7.0
-    - 1.7.1
-    - 1.7.2
-    - 1.7.3
-    - 1.7.4
-    - 1.8.0-pre.1
-    - 1.8.0-pre.2
-    - 1.8.0
-    - 1.8.1
-    - 1.8.2
-    - 1.8.3
-    - 1.8.4
-    - 1.8.7
-    - 1.8.8
-    - 1.8.9
-    - 1.8.10
-    - 1.8.11
-    - 1.8.12
-    - 1.8.13
-    - 1.8.14
-    - 1.8.15
-    - 1.8.16
-    - 1.8.17
     - 1.8.18
     compatible:
     - 1.8.18
@@ -6352,9 +5213,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638622972693870000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
   hasRepository: 1
   repository:
@@ -6397,7 +5258,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.3.2
   source: 1
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.mathematics
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.mathematics
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -6406,30 +5267,12 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Unity's C# SIMD math library providing vector types and math functions
     with a shader like syntax.
   errors: []
   versions:
     all:
-    - 0.0.12-preview.2
-    - 0.0.12-preview.5
-    - 0.0.12-preview.8
-    - 0.0.12-preview.10
-    - 0.0.12-preview.11
-    - 0.0.12-preview.13
-    - 0.0.12-preview.17
-    - 0.0.12-preview.19
-    - 0.0.12-preview.20
-    - 1.0.0-preview.1
-    - 1.0.1
-    - 1.1.0-preview.1
-    - 1.1.0
-    - 1.2.1
-    - 1.2.4
-    - 1.2.5
-    - 1.2.6
-    - 1.3.1
     - 1.3.2
     compatible:
     - 1.3.2
@@ -6449,9 +5292,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638409134840000000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.mathematics@1.3/manual/index.html
   hasRepository: 1
   repository:
@@ -6486,7 +5329,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.5.1
   source: 1
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.collections
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.collections
   assetPath: Packages/com.unity.collections
   name: com.unity.collections
   displayName: Collections
@@ -6501,75 +5344,6 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 0.0.9-preview.1
-    - 0.0.9-preview.2
-    - 0.0.9-preview.3
-    - 0.0.9-preview.4
-    - 0.0.9-preview.5
-    - 0.0.9-preview.6
-    - 0.0.9-preview.7
-    - 0.0.9-preview.8
-    - 0.0.9-preview.9
-    - 0.0.9-preview.10
-    - 0.0.9-preview.11
-    - 0.0.9-preview.12
-    - 0.0.9-preview.13
-    - 0.0.9-preview.14
-    - 0.0.9-preview.15
-    - 0.0.9-preview.16
-    - 0.0.9-preview.17
-    - 0.0.9-preview.18
-    - 0.0.9-preview.19
-    - 0.0.9-preview.20
-    - 0.1.0-preview
-    - 0.1.1-preview
-    - 0.2.0-preview.13
-    - 0.3.0-preview.0
-    - 0.4.0-preview.6
-    - 0.5.0-preview.9
-    - 0.5.1-preview.11
-    - 0.5.2-preview.8
-    - 0.6.0-preview.9
-    - 0.7.0-preview.2
-    - 0.7.1-preview.3
-    - 0.8.0-preview.5
-    - 0.9.0-preview.5
-    - 0.9.0-preview.6
-    - 0.11.0-preview.17
-    - 0.12.0-preview.13
-    - 0.14.0-preview.16
-    - 0.15.0-preview.21
-    - 0.17.0-preview.18
-    - 1.0.0-pre.3
-    - 1.0.0-pre.5
-    - 1.0.0-pre.6
-    - 1.1.0
-    - 1.2.3-pre.1
-    - 1.2.3
-    - 1.2.4
-    - 1.3.1
-    - 1.4.0
-    - 1.5.1
-    - 2.1.0-exp.4
-    - 2.1.0-pre.2
-    - 2.1.0-pre.6
-    - 2.1.0-pre.11
-    - 2.1.0-pre.18
-    - 2.1.1
-    - 2.1.4
-    - 2.2.0
-    - 2.2.1
-    - 2.3.0-exp.1
-    - 2.3.0-pre.3
-    - 2.4.0-exp.2
-    - 2.4.0-pre.2
-    - 2.4.0-pre.5
-    - 2.4.0
-    - 2.4.1
-    - 2.4.2
-    - 2.4.3
-    - 2.5.0-exp.1
-    - 2.5.0-pre.2
     - 2.5.1
     compatible:
     - 2.5.1
@@ -6578,10 +5352,10 @@ m_ResolvedPackages:
   dependencies:
   - name: com.unity.burst
     version: 1.8.17
-  - name: com.unity.test-framework
-    version: 1.4.5
   - name: com.unity.nuget.mono-cecil
     version: 1.11.4
+  - name: com.unity.test-framework
+    version: 1.4.5
   - name: com.unity.test-framework.performance
     version: 3.0.3
   resolvedDependencies:
@@ -6591,14 +5365,14 @@ m_ResolvedPackages:
     version: 1.3.2
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
   - name: com.unity.test-framework
     version: 1.4.5
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
   - name: com.unity.test-framework.performance
     version: 3.0.3
   keywords:
@@ -6615,9 +5389,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638621282722800000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.collections@2.5/manual/index.html
   hasRepository: 1
   repository:
@@ -6652,7 +5426,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.1
   source: 2
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.rendering.light-transport
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.rendering.light-transport
   assetPath: Packages/com.unity.rendering.light-transport
   name: com.unity.rendering.light-transport
   displayName: Unity Light Transport Library
@@ -6688,14 +5462,14 @@ m_ResolvedPackages:
     version: 1.3.2
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
   - name: com.unity.test-framework
     version: 1.4.5
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
   - name: com.unity.test-framework.performance
     version: 3.0.3
   - name: com.unity.modules.terrain
@@ -6738,7 +5512,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 307bc27a498fc9cd409bbd426c85d8dc7f140bc1
+  fingerprint: e291d2b283b1e98987c6f75d18149bc0eb1ee8bc
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.1
@@ -6748,7 +5522,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 9.0.6
   source: 1
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.2d.common
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.2d.common
   assetPath: Packages/com.unity.2d.common
   name: com.unity.2d.common
   displayName: 2D Common
@@ -6757,107 +5531,47 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: asset
+  type: 
   description: 2D Common is a package that contains shared functionalities that are
     used by most of the other 2D packages.
   errors: []
   versions:
     all:
-    - 1.0.9-preview.1
-    - 1.0.9-preview.2
-    - 1.0.10-preview
-    - 1.0.11-preview.1
-    - 1.1.0-preview.1
-    - 1.1.0-preview.2
-    - 1.2.0-preview.1
-    - 2.0.1
-    - 2.0.2
-    - 2.1.0
-    - 2.1.1
-    - 2.1.2
-    - 3.0.0
-    - 3.0.1
-    - 4.0.0
-    - 4.0.1
-    - 4.0.2
-    - 4.0.3
-    - 4.0.4
-    - 4.1.0
-    - 4.2.0
-    - 4.2.1
-    - 5.0.0-pre.1
-    - 5.0.0-pre.2
-    - 5.0.0
-    - 6.0.0-pre.2
-    - 6.0.0-pre.3
-    - 6.0.0-pre.4
-    - 6.0.0
-    - 6.0.1
-    - 6.0.2
-    - 6.0.3
-    - 6.0.4
-    - 6.0.5
-    - 6.0.6
-    - 6.0.7
-    - 6.0.8
-    - 7.0.0-pre.3
-    - 7.0.0-pre.4
-    - 7.0.0
-    - 7.0.1
-    - 7.0.2
-    - 7.0.3
-    - 8.0.0-pre.1
-    - 8.0.0-pre.2
-    - 8.0.0
-    - 8.0.1
-    - 8.0.2
-    - 8.0.3
-    - 8.0.4
-    - 9.0.0-pre.1
-    - 9.0.0-pre.2
-    - 9.0.0
-    - 9.0.1
-    - 9.0.2
-    - 9.0.3
-    - 9.0.4
-    - 9.0.5
     - 9.0.6
-    - 9.0.7
     compatible:
     - 9.0.6
-    - 9.0.7
-    recommended: 9.0.7
+    recommended: 9.0.6
     deprecated: []
   dependencies:
-  - name: com.unity.burst
-    version: 1.8.4
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.mathematics
     version: 1.1.0
-  - name: com.unity.modules.animation
-    version: 1.0.0
   - name: com.unity.modules.uielements
     version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.burst
-    version: 1.8.18
-  - name: com.unity.mathematics
-    version: 1.3.2
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.2d.sprite
-    version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
+  - name: com.unity.burst
+    version: 1.8.4
+  resolvedDependencies:
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.3.2
   - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
   - name: com.unity.modules.hierarchycore
     version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.burst
+    version: 1.8.18
   keywords:
   - 2d
   registry:
@@ -6870,9 +5584,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638587939290000000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.common@9.0/manual/index.html
   hasRepository: 1
   repository:
@@ -6905,7 +5619,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.1
   source: 1
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.settings-manager
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.settings-manager
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -6914,19 +5628,12 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: A framework for making any serializable field a setting, complete
     with a pre-built settings interface.
   errors: []
   versions:
     all:
-    - 0.1.0-preview.4
-    - 0.1.0-preview.8
-    - 1.0.0
-    - 1.0.1
-    - 1.0.2
-    - 1.0.3
-    - 2.0.0
     - 2.0.1
     compatible:
     - 2.0.1
@@ -6945,9 +5652,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637744099390000000
+  datePublishedTicks: 0
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -6979,7 +5686,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.11.4
   source: 1
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.nuget.mono-cecil
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.nuget.mono-cecil
   assetPath: Packages/com.unity.nuget.mono-cecil
   name: com.unity.nuget.mono-cecil
   displayName: Mono Cecil
@@ -7001,12 +5708,6 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 0.1.6-preview.2
-    - 1.0.0-preview.1
-    - 1.10.0-preview.1
-    - 1.10.1-preview.1
-    - 1.10.1
-    - 1.10.2
     - 1.11.4
     compatible:
     - 1.11.4
@@ -7025,9 +5726,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637852971930000000
+  datePublishedTicks: 0
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -7059,7 +5760,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.0.3
   source: 1
-  resolvedPath: C:\Users\kaq12\Desktop\DoodlelandEvo\DoodleLandEvo\Library\PackageCache\com.unity.test-framework.performance
+  resolvedPath: /home/kacper/Pulpit/DoodlelandEvo/DoodleLandEvo/Library/PackageCache/com.unity.test-framework.performance
   assetPath: Packages/com.unity.test-framework.performance
   name: com.unity.test-framework.performance
   displayName: Performance testing API
@@ -7068,62 +5769,12 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Package that extends Unity Test Framework package. Adds performance
     testing capabilities and collects configuration metadata.
   errors: []
   versions:
     all:
-    - 0.1.27-preview
-    - 0.1.29-preview
-    - 0.1.31-preview
-    - 0.1.33-preview
-    - 0.1.34-preview
-    - 0.1.36-preview
-    - 0.1.37-preview
-    - 0.1.39-preview
-    - 0.1.40-preview
-    - 0.1.41-preview
-    - 0.1.42-preview
-    - 0.1.44-preview
-    - 0.1.45-preview
-    - 0.1.47-preview
-    - 0.1.48-preview
-    - 0.1.49-preview
-    - 0.1.50-preview
-    - 1.0.4-preview
-    - 1.0.6-preview
-    - 1.0.9-preview
-    - 1.1.2-preview
-    - 1.2.0-preview
-    - 1.2.1-preview
-    - 1.2.3-preview
-    - 1.2.5-preview
-    - 1.2.6-preview
-    - 1.3.0-preview
-    - 1.3.1-preview
-    - 1.3.2-preview
-    - 1.3.3-preview
-    - 2.0.1-preview
-    - 2.0.2-preview
-    - 2.0.3-preview
-    - 2.0.6-preview
-    - 2.0.7-preview
-    - 2.0.8-preview
-    - 2.0.9-preview
-    - 2.1.0-preview
-    - 2.2.0-preview
-    - 2.3.1-preview
-    - 2.4.1-preview
-    - 2.5.1-preview
-    - 2.6.0-preview
-    - 2.7.0-preview
-    - 2.8.0-preview
-    - 2.8.1-preview
-    - 3.0.0-pre.1
-    - 3.0.0-pre.2
-    - 3.0.1
-    - 3.0.2
     - 3.0.3
     compatible:
     - 3.0.3
@@ -7156,9 +5807,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638301960470000000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.test-framework.performance@3.0/manual/index.html
   hasRepository: 1
   repository:
@@ -7189,4 +5840,4 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 3.0.3
     minimumUnityVersion: 2020.3.0a1
-m_BuiltInPackagesHash: 58144a8dde1d83f3c4a710a626e57c6ff83a4009
+m_BuiltInPackagesHash: aa2589faa8b7552d9b1dd52d96c39b64f5cac29e
